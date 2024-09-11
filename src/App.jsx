@@ -6,6 +6,7 @@ import About from './About'
 import Contact from './Contact'
 import Test from './Test'
 import UseState from './UseState'
+import LearningUseEffect from './LearningUseEffect'
 
  
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/contact' element={<Contact/>} />
       <Route path='/test' element={<Test/>} />
       <Route path='/useState' element={<UseState/>} />
+      <Route path='/useEffect' element={<LearningUseEffect/>} />
     </Routes>
     </BrowserRouter>
   )
